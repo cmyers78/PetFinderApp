@@ -53,6 +53,29 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let dog10 = Dog(petName: "Cotechino", petAge: "10 years", petImage: "p10 - Cotechino", petBreed: "Miniature Pinscher", petSize: "Small", petGender: "Male")
         self.dogArray.append(dog10)
         
+        let dog11 = Dog(petName: "Daisy", petAge: "1 year", petImage: "p11 - Daisy", petBreed: "Pit Bull Terrier", petSize: "Medium", petGender: "Female")
+        self.dogArray.append(dog11)
+        
+        let dog12 = Dog(petName: "Flick", petAge: "3 years", petImage: "p12 - Flick", petBreed: "Pit Bull Terrier", petSize: "Large", petGender: "Male")
+        self.dogArray.append(dog12)
+        
+        let dog13 = Dog(petName: "Froggers", petAge: "7 years", petImage: "p13 - Froggers", petBreed: "Boston Terrier", petSize: "Medium", petGender: "Male")
+        self.dogArray.append(dog13)
+        
+        let dog14 = Dog(petName: "Hendrick", petAge: "10 years", petImage: "p14 - Hendrick", petBreed: "Border Collie", petSize: "Large", petGender: "Male")
+        self.dogArray.append(dog14)
+        
+        let dog15 = Dog(petName: "Jude", petAge: "7 years", petImage: "p15 - Jude", petBreed: "Kelpie/Jack Russel mix", petSize: "Medium", petGender: "Male")
+        self.dogArray.append(dog15)
+        
+        let dog16 = Dog(petName: "Kellie", petAge: "2 years", petImage: "p16 - Kellie", petBreed: "Rat Terrier", petSize: "Small", petGender: "Female")
+        self.dogArray.append(dog16)
+        
+        let dog17 = Dog(petName: "Kevin", petAge: "6 years", petImage: "p17 - Kevin", petBreed: "Cocker Spaniel", petSize: "Medium", petGender: "Male")
+        self.dogArray.append(dog17)
+        
+        
+        
         
         
     }
@@ -69,6 +92,10 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         cell.textLabel?.text = self.currentDog?.name
         
+        if let image = self.currentDog?.image {
+            cell.imageView?.image = UIImage(named: image)
+            
+        }
         
         return cell
     }
