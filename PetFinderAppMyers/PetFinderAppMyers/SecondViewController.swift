@@ -86,14 +86,16 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! DogDetailsTableViewCell
         
         self.currentDog = self.dogArray[indexPath.row]
         
-        cell.textLabel?.text = self.currentDog?.name
+        cell.dogNameLabel.text = self.currentDog?.name
+        cell.dogAgeLabel.text = self.currentDog?.age
+        cell.dogBreedLabel.text = self.currentDog?.breed
         
         if let image = self.currentDog?.image {
-            cell.imageView?.image = UIImage(named: image)
+            cell.dogImage.image = UIImage(named: image)
             
         }
         

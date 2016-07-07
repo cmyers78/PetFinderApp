@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C683B3561D2EA31E0083F81F /* DogDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */; };
 		C6D2323D1D2DA34A00B07766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */; };
 		C6D2323F1D2DA34A00B07766 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2323E1D2DA34A00B07766 /* FirstViewController.swift */; };
 		C6D232411D2DA34A00B07766 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D232401D2DA34A00B07766 /* SecondViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		C6D232391D2DA34A00B07766 /* PetFinderAppMyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinderAppMyers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D2323E1D2DA34A00B07766 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C6D232401D2DA34A00B07766 /* SecondViewController.swift */,
 				C6D232501D2DA5BE00B07766 /* Dog.swift */,
 				C6D232421D2DA34A00B07766 /* Main.storyboard */,
+				C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */,
 				C6D232451D2DA34A00B07766 /* Assets.xcassets */,
 				C6D232471D2DA34A00B07766 /* LaunchScreen.storyboard */,
 				C6D2324A1D2DA34A00B07766 /* Info.plist */,
@@ -144,6 +147,7 @@
 				C6D232411D2DA34A00B07766 /* SecondViewController.swift in Sources */,
 				C6D2323D1D2DA34A00B07766 /* AppDelegate.swift in Sources */,
 				C6D232511D2DA5BE00B07766 /* Dog.swift in Sources */,
+				C683B3561D2EA31E0083F81F /* DogDetailsTableViewCell.swift in Sources */,
 				C6D2323F1D2DA34A00B07766 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				C6D2324F1D2DA34A00B07766 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
