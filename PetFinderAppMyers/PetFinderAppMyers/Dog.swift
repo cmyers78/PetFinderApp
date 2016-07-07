@@ -17,6 +17,7 @@ class Dog: NSObject {
     var size : String = ""
     var gender : String = ""
     
+    // optional UI Image - Lazy Property - computed properties
     var image : UIImage? {
         return UIImage(named: self.imageName)
     }

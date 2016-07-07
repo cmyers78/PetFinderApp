@@ -16,6 +16,8 @@ class FirstViewController: UIViewController, CardStackDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // IMPORTANT - SET THE DELEGATE!!
+        
         self.cardStackView.delegate = self
         
         
