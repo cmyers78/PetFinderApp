@@ -99,9 +99,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.dogAgeLabel.text = self.currentDog?.age
         cell.dogBreedLabel.text = self.currentDog?.breed
         
-        if let image = self.currentDog?.image {
+        if let image = self.currentDog?.imageName {
             cell.dogImage.image = UIImage(named: image)
-            
         }
         
         return cell
