@@ -74,9 +74,14 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let dog17 = Dog(petName: "Kevin", petAge: "6 years", petImage: "p17 - Kevin", petBreed: "Cocker Spaniel", petSize: "Medium", petGender: "Male")
         self.dogArray.append(dog17)
         
+        let dog18 = Dog(petName: "Lady", petAge: "5 years", petImage: "p18 - Lady", petBreed: "Pit Bull Terrier", petSize: "Large", petGender: "Female")
+        self.dogArray.append(dog18)
         
+        let dog19 = Dog(petName: "Liesl", petAge: "1 year", petImage: "p19 - Liesl", petBreed: "Pit Bull Terrier", petSize: "Medium", petGender: "Female")
+        self.dogArray.append(dog19)
         
-        
+        let dog20 = Dog(petName: "Lucy", petAge: "1 year", petImage: "p20 - Lucy", petBreed: "Border Collie", petSize: "Large", petGender: "Female")
+        self.dogArray.append(dog20)
         
     }
 
