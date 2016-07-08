@@ -11,6 +11,7 @@
 		C654A4B81D2EB3F4005EA265 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B61D2EB3F3005EA265 /* CardView.swift */; };
 		C6823C0B1D2F58F800BAE63B /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823C0A1D2F58F800BAE63B /* DataStorage.swift */; };
 		C6823C0D1D2F5E1800BAE63B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823C0C1D2F5E1800BAE63B /* CollectionViewController.swift */; };
+		C6823C121D2F64EB00BAE63B /* DogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823C111D2F64EB00BAE63B /* DogCollectionViewCell.swift */; };
 		C683B3561D2EA31E0083F81F /* DogDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */; };
 		C6D2323D1D2DA34A00B07766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */; };
 		C6D2323F1D2DA34A00B07766 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2323E1D2DA34A00B07766 /* FirstViewController.swift */; };
@@ -26,6 +27,7 @@
 		C654A4B61D2EB3F3005EA265 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C6823C0A1D2F58F800BAE63B /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 		C6823C0C1D2F5E1800BAE63B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		C6823C111D2F64EB00BAE63B /* DogCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogCollectionViewCell.swift; sourceTree = "<group>"; };
 		C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		C6D232391D2DA34A00B07766 /* PetFinderAppMyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinderAppMyers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		C6823C0F1D2F5E3800BAE63B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C6823C111D2F64EB00BAE63B /* DogCollectionViewCell.swift */,
 				C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */,
 				C654A4B51D2EB3F3005EA265 /* CardStack.swift */,
 				C654A4B61D2EB3F3005EA265 /* CardView.swift */,
@@ -187,6 +190,7 @@
 				C6823C0B1D2F58F800BAE63B /* DataStorage.swift in Sources */,
 				C654A4B71D2EB3F4005EA265 /* CardStack.swift in Sources */,
 				C6D232511D2DA5BE00B07766 /* Dog.swift in Sources */,
+				C6823C121D2F64EB00BAE63B /* DogCollectionViewCell.swift in Sources */,
 				C683B3561D2EA31E0083F81F /* DogDetailsTableViewCell.swift in Sources */,
 				C6D2323F1D2DA34A00B07766 /* FirstViewController.swift in Sources */,
 			);

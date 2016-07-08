@@ -29,15 +29,18 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        return 1
+        return self.currentDog.count
     }
 
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionCell", forIndexPath: indexPath)
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("CollectionCell", forIndexPath: indexPath) as! DogCollectionViewCell
         
+        let aDog = self.currentDog[indexPath.row]
         
+        cell.dogNameLabel.text = aDog.name
+        cell.dogImage.image = UIImage(named: aDog.imageName)
         
         return cell
     }

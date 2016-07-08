@@ -62,7 +62,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="Ocu-e6-BHG">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="Ocu-e6-BHG" customClass="DogCollectionViewCell" customModule="PetFinderAppMyers" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="190"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -78,7 +78,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHN-Cl-eIZ">
                                                     <rect key="frame" x="10" y="161" width="140" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -92,6 +92,10 @@
                                             <constraint firstItem="jJJ-na-PWk" firstAttribute="top" secondItem="Ocu-e6-BHG" secondAttribute="top" constant="10" id="kfw-aV-uq3"/>
                                             <constraint firstItem="oHN-Cl-eIZ" firstAttribute="top" secondItem="jJJ-na-PWk" secondAttribute="bottom" constant="10" id="pGl-aM-acy"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="dogImage" destination="jJJ-na-PWk" id="mWl-8o-pQm"/>
+                                            <outlet property="dogNameLabel" destination="oHN-Cl-eIZ" id="oup-dN-L2x"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
