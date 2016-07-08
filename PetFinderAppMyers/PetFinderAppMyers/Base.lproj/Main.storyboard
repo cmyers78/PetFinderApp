@@ -41,6 +41,25 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
+        <!--Item-->
+        <scene sceneID="fUG-PN-g1G">
+            <objects>
+                <viewController id="XVc-rr-zJp" customClass="CollectionViewController" customModule="PetFinderAppMyers" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ybu-gt-nSG"/>
+                        <viewControllerLayoutGuide type="bottom" id="zvP-Ec-jXs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VTx-JS-630">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="ti7-d5-hBu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQh-uU-I7I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66" y="787"/>
+        </scene>
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -145,6 +164,7 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="XVc-rr-zJp" kind="relationship" relationship="viewControllers" id="BU8-tH-vc9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>

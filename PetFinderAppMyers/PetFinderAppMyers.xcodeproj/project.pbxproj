@@ -10,6 +10,7 @@
 		C654A4B71D2EB3F4005EA265 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B51D2EB3F3005EA265 /* CardStack.swift */; };
 		C654A4B81D2EB3F4005EA265 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B61D2EB3F3005EA265 /* CardView.swift */; };
 		C6823C0B1D2F58F800BAE63B /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823C0A1D2F58F800BAE63B /* DataStorage.swift */; };
+		C6823C0D1D2F5E1800BAE63B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6823C0C1D2F5E1800BAE63B /* CollectionViewController.swift */; };
 		C683B3561D2EA31E0083F81F /* DogDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */; };
 		C6D2323D1D2DA34A00B07766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */; };
 		C6D2323F1D2DA34A00B07766 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D2323E1D2DA34A00B07766 /* FirstViewController.swift */; };
@@ -24,6 +25,7 @@
 		C654A4B51D2EB3F3005EA265 /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		C654A4B61D2EB3F3005EA265 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C6823C0A1D2F58F800BAE63B /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		C6823C0C1D2F5E1800BAE63B /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		C6D232391D2DA34A00B07766 /* PetFinderAppMyers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinderAppMyers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6823C0E1D2F5E2400BAE63B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6D2323E1D2DA34A00B07766 /* FirstViewController.swift */,
+				C6D232401D2DA34A00B07766 /* SecondViewController.swift */,
+				C6823C0C1D2F5E1800BAE63B /* CollectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C6823C0F1D2F5E3800BAE63B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */,
+				C654A4B51D2EB3F3005EA265 /* CardStack.swift */,
+				C654A4B61D2EB3F3005EA265 /* CardView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C6823C101D2F5E4300BAE63B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6823C0A1D2F58F800BAE63B /* DataStorage.swift */,
+				C6D232501D2DA5BE00B07766 /* Dog.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		C6D232301D2DA34A00B07766 = {
 			isa = PBXGroup;
 			children = (
@@ -67,14 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				C6D2323C1D2DA34A00B07766 /* AppDelegate.swift */,
-				C6D2323E1D2DA34A00B07766 /* FirstViewController.swift */,
-				C6D232401D2DA34A00B07766 /* SecondViewController.swift */,
-				C6823C0A1D2F58F800BAE63B /* DataStorage.swift */,
-				C654A4B51D2EB3F3005EA265 /* CardStack.swift */,
-				C654A4B61D2EB3F3005EA265 /* CardView.swift */,
-				C6D232501D2DA5BE00B07766 /* Dog.swift */,
+				C6823C0E1D2F5E2400BAE63B /* Controllers */,
+				C6823C101D2F5E4300BAE63B /* Models */,
+				C6823C0F1D2F5E3800BAE63B /* Views */,
 				C6D232421D2DA34A00B07766 /* Main.storyboard */,
-				C683B3551D2EA31E0083F81F /* DogDetailsTableViewCell.swift */,
 				C6D232451D2DA34A00B07766 /* Assets.xcassets */,
 				C6D232471D2DA34A00B07766 /* LaunchScreen.storyboard */,
 				C6D2324A1D2DA34A00B07766 /* Info.plist */,
@@ -153,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6823C0D1D2F5E1800BAE63B /* CollectionViewController.swift in Sources */,
 				C654A4B81D2EB3F4005EA265 /* CardView.swift in Sources */,
 				C6D232411D2DA34A00B07766 /* SecondViewController.swift in Sources */,
 				C6D2323D1D2DA34A00B07766 /* AppDelegate.swift in Sources */,
