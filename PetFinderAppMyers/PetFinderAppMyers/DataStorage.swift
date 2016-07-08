@@ -17,6 +17,9 @@ class DataStorage: NSObject {
     
     private var dogArray = [Dog]()
     
+    private var favoriteDogsArray = [Dog]()
+    
+    
     func seedDog() {
         
         let dog1 = Dog(petName: "Athena", petAge: "5 years", petImage: "p1 - Athena", petBreed: "Chihuahua", petSize: "Small", petGender: "Female")
@@ -86,8 +89,17 @@ class DataStorage: NSObject {
         
     }
     
+    func addFavoriteDog(dog : Dog) {
+        self.favoriteDogsArray.append(dog)
+    }
+    
+    
     func removeDog() {
         self.dogArray.removeAll()
+    }
+    
+    func clearFavorites() {
+        self.favoriteDogsArray.removeAll()
     }
     
     func dogAtIndex(index : Int) -> Dog? {
@@ -97,8 +109,19 @@ class DataStorage: NSObject {
         return nil
     }
     
+    func favoriteDogAtIndex(index : Int) -> Dog? {
+        if self.favoriteDogsArray.count >= 0 && index < self.favoriteDogsArray.count {
+            return self.favoriteDogsArray[index]
+        }
+        return nil 
+    }
+    
     func numberOfDogs() -> Int {
         return self.dogArray.count
+    }
+    
+    func favoriteNumberOfDogs() -> Int {
+        return self.favoriteDogsArray.count
     }
 
 }
