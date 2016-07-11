@@ -21,6 +21,7 @@ class MapViewController: UIViewController, MKMapViewDelegate {
         
         addPin(40.730459, pinLong: -111.551152, pinTitle: "The Adoption Center - Kimball Junction", pinSubtitle: "6699 N Landmark Dr, Suite B-103C, Park City, UT 84098")
         
+        addPin(40.732895, pinLong: -111.383897, pinTitle: "Rescue Ranch - Brown's Canyon", pinSubtitle: "6466 N Highview Road, Peoa, Utah 84061")
         
         // Do any additional setup after loading the view.
     }
