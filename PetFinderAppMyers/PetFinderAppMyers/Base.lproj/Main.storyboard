@@ -23,11 +23,17 @@
                                 <rect key="frame" x="60" y="150" width="480" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nuzzles_logo" translatesAutoresizingMaskIntoConstraints="NO" id="S9t-AY-kpv">
+                                <rect key="frame" x="146" y="30" width="309" height="100"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="AuA-pR-VTI" firstAttribute="top" secondItem="S9t-AY-kpv" secondAttribute="bottom" constant="20" id="2xX-dd-f88"/>
                             <constraint firstItem="AuA-pR-VTI" firstAttribute="height" secondItem="tsR-hK-woN" secondAttribute="height" multiplier="0.5" id="3GP-Th-OYW"/>
                             <constraint firstItem="AuA-pR-VTI" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="6QT-Pq-wtE"/>
+                            <constraint firstItem="S9t-AY-kpv" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="10" id="Dtp-kr-ZXl"/>
+                            <constraint firstItem="S9t-AY-kpv" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="P2U-dV-6m9"/>
                             <constraint firstItem="AuA-pR-VTI" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" multiplier="0.8" id="npA-DQ-2x4"/>
                             <constraint firstItem="AuA-pR-VTI" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="t14-p0-heL"/>
                         </constraints>
@@ -364,5 +370,6 @@
         <image name="grid32x" width="32" height="32"/>
         <image name="heart@32x" width="32" height="32"/>
         <image name="map@32x" width="32" height="32"/>
+        <image name="nuzzles_logo" width="309" height="122"/>
     </resources>
 </document>
