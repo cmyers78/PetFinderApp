@@ -12,6 +12,8 @@ class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Locations"
 
         // Do any additional setup after loading the view.
     }

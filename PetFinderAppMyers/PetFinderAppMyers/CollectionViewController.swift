@@ -14,6 +14,7 @@ class CollectionViewController: UIViewController, UICollectionViewDelegate, UICo
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Search"
 
         
         for dog in 0...19 {

@@ -18,6 +18,7 @@ class FirstViewController: UIViewController, CardStackDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = "Adoptables"
         // IMPORTANT - SET THE DELEGATE!!
         
         self.cardStackView.delegate = self

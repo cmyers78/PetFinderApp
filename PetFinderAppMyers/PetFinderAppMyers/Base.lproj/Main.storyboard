@@ -61,6 +61,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="M4w-bp-75u">
                                 <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="edu-2p-3ac">
                                     <size key="itemSize" width="170" height="190"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -175,6 +176,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstItem="gMs-bn-tyL" firstAttribute="top" secondItem="Lz0-tR-kWC" secondAttribute="topMargin" constant="24" id="0DH-Lp-3F1"/>
                                                 <constraint firstItem="w9V-Ou-UUM" firstAttribute="top" secondItem="fj7-zC-2JY" secondAttribute="bottom" constant="25" id="6eI-3Y-tvE"/>
@@ -203,7 +205,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="g6S-GZ-FNG" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="E0b-un-Q5y"/>
                             <constraint firstItem="g6S-GZ-FNG" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="Wb2-JG-JD6"/>
