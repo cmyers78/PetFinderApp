@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C621BFD91D3411B100633030 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C621BFD81D3411B100633030 /* MapKit.framework */; };
 		C654A4B71D2EB3F4005EA265 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B51D2EB3F3005EA265 /* CardStack.swift */; };
 		C654A4B81D2EB3F4005EA265 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B61D2EB3F3005EA265 /* CardView.swift */; };
 		C670CE1D1D300642002829CE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C670CE1C1D300642002829CE /* MapViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C621BFD81D3411B100633030 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C654A4B51D2EB3F3005EA265 /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		C654A4B61D2EB3F3005EA265 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C670CE1C1D300642002829CE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C621BFD91D3411B100633030 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 		C6D232301D2DA34A00B07766 = {
 			isa = PBXGroup;
 			children = (
+				C621BFD81D3411B100633030 /* MapKit.framework */,
 				C6D2323B1D2DA34A00B07766 /* PetFinderAppMyers */,
 				C6D2323A1D2DA34A00B07766 /* Products */,
 			);
@@ -150,6 +154,11 @@
 				TargetAttributes = {
 					C6D232381D2DA34A00B07766 = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
