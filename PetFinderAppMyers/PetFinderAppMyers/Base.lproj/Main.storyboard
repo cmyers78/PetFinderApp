@@ -281,19 +281,17 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEW-0Y-BCp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aA5-oG-pq2">
                                 <rect key="frame" x="20" y="254" width="560" height="277"/>
                                 <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="1th-Cq-0Db" firstAttribute="top" secondItem="OEW-0Y-BCp" secondAttribute="bottom" constant="20" id="0Hh-wL-wEb"/>
                             <constraint firstItem="6Js-aK-f8f" firstAttribute="top" secondItem="B2w-wB-7yk" secondAttribute="bottom" constant="10" id="2CD-2v-frz"/>
                             <constraint firstAttribute="trailing" secondItem="6Js-aK-f8f" secondAttribute="trailing" constant="15" id="7v8-Oh-mGl"/>
                             <constraint firstItem="RbZ-zr-WoF" firstAttribute="top" secondItem="89S-Aq-c8U" secondAttribute="bottom" constant="20" id="BbJ-Dr-v6h"/>
@@ -301,16 +299,17 @@
                             <constraint firstItem="cxI-7h-EX5" firstAttribute="leading" secondItem="ysd-Jd-63U" secondAttribute="leading" constant="20" id="DtQ-lf-eXo"/>
                             <constraint firstItem="6SH-6j-Kbc" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="Mdc-X3-2ON"/>
                             <constraint firstItem="RbZ-zr-WoF" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="NBs-gZ-0x9"/>
-                            <constraint firstAttribute="trailing" secondItem="OEW-0Y-BCp" secondAttribute="trailing" constant="20" id="OPG-Ix-KdR"/>
                             <constraint firstItem="6SH-6j-Kbc" firstAttribute="top" secondItem="6Js-aK-f8f" secondAttribute="bottom" constant="10" id="Z7E-sm-480"/>
                             <constraint firstAttribute="trailing" secondItem="B2w-wB-7yk" secondAttribute="trailing" constant="15" id="bww-ju-gmy"/>
                             <constraint firstItem="B2w-wB-7yk" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="hPl-0d-woE"/>
+                            <constraint firstAttribute="trailing" secondItem="aA5-oG-pq2" secondAttribute="trailing" constant="20" id="kl1-Y8-cWd"/>
                             <constraint firstAttribute="trailing" secondItem="RbZ-zr-WoF" secondAttribute="trailing" constant="15" id="mw9-oA-1Q7"/>
+                            <constraint firstItem="aA5-oG-pq2" firstAttribute="leading" secondItem="ysd-Jd-63U" secondAttribute="leading" constant="20" id="myE-M4-TAR"/>
                             <constraint firstItem="cxI-7h-EX5" firstAttribute="top" secondItem="89S-Aq-c8U" secondAttribute="bottom" constant="20" id="pRP-U6-wbi"/>
+                            <constraint firstItem="1th-Cq-0Db" firstAttribute="top" secondItem="aA5-oG-pq2" secondAttribute="bottom" constant="20" id="sFO-ic-xRd"/>
+                            <constraint firstItem="aA5-oG-pq2" firstAttribute="top" secondItem="cxI-7h-EX5" secondAttribute="bottom" constant="20" id="tGz-e1-fdh"/>
                             <constraint firstItem="6Js-aK-f8f" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="tsK-2C-8zf"/>
                             <constraint firstItem="B2w-wB-7yk" firstAttribute="top" secondItem="RbZ-zr-WoF" secondAttribute="bottom" constant="10" id="u2H-B6-Sjq"/>
-                            <constraint firstItem="OEW-0Y-BCp" firstAttribute="leading" secondItem="ysd-Jd-63U" secondAttribute="leading" constant="20" id="wUB-zE-pPK"/>
-                            <constraint firstItem="OEW-0Y-BCp" firstAttribute="top" secondItem="cxI-7h-EX5" secondAttribute="bottom" constant="20" id="wpa-Rt-B5c"/>
                         </constraints>
                     </view>
                     <connections>
@@ -319,7 +318,7 @@
                         <outlet property="detailImage" destination="cxI-7h-EX5" id="dQC-i5-jhl"/>
                         <outlet property="detailNameLabel" destination="RbZ-zr-WoF" id="Y9X-6l-aPz"/>
                         <outlet property="detailSizeLabel" destination="6Js-aK-f8f" id="nfo-dh-oTj"/>
-                        <outlet property="detailTextView" destination="OEW-0Y-BCp" id="vmv-Ge-02u"/>
+                        <outlet property="detailTextView" destination="aA5-oG-pq2" id="HaV-mO-udN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3XV-jb-vEh" userLabel="First Responder" sceneMemberID="firstResponder"/>
