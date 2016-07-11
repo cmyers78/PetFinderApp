@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C620CA901D342EF100161775 /* CustomMKPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C620CA8F1D342EF100161775 /* CustomMKPointAnnotation.swift */; };
 		C621BFD91D3411B100633030 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C621BFD81D3411B100633030 /* MapKit.framework */; };
 		C654A4B71D2EB3F4005EA265 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B51D2EB3F3005EA265 /* CardStack.swift */; };
 		C654A4B81D2EB3F4005EA265 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C654A4B61D2EB3F3005EA265 /* CardView.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C620CA8F1D342EF100161775 /* CustomMKPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMKPointAnnotation.swift; sourceTree = "<group>"; };
 		C621BFD81D3411B100633030 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C654A4B51D2EB3F3005EA265 /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		C654A4B61D2EB3F3005EA265 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				C6823C0A1D2F58F800BAE63B /* DataStorage.swift */,
 				C6D232501D2DA5BE00B07766 /* Dog.swift */,
+				C620CA8F1D342EF100161775 /* CustomMKPointAnnotation.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				C670CE1D1D300642002829CE /* MapViewController.swift in Sources */,
 				C6823C0D1D2F5E1800BAE63B /* CollectionViewController.swift in Sources */,
+				C620CA901D342EF100161775 /* CustomMKPointAnnotation.swift in Sources */,
 				C654A4B81D2EB3F4005EA265 /* CardView.swift in Sources */,
 				C6D232411D2DA34A00B07766 /* SecondViewController.swift in Sources */,
 				C6D2323D1D2DA34A00B07766 /* AppDelegate.swift in Sources */,

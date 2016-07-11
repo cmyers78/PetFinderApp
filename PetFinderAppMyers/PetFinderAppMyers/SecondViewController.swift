@@ -18,6 +18,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Favorites"
+        self.edgesForExtendedLayout = .None
         
         // Do any additional setup after loading the view, typically from a nib.
     }
