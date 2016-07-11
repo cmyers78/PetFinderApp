@@ -12,8 +12,12 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var tableView: UITableView!
     
+    var currentDog : Dog?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -33,7 +37,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! DogDetailsTableViewCell
         
-        let currentDog = DataStorage.sharedInstance.favoriteDogAtIndex(indexPath.row)
+        self.currentDog  = DataStorage.sharedInstance.favoriteDogAtIndex(indexPath.row)
         
         cell.dogNameLabel.text = currentDog?.name
         cell.dogAgeLabel.text = currentDog?.age
@@ -49,9 +53,29 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
+        self.currentDog = DataStorage.sharedInstance.favoriteDogAtIndex(indexPath.row)
         
+        self.performSegueWithIdentifier("DetailSegue", sender: nil)
         
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "DetailSegue" {
+            
+            if let controller = segue.destinationViewController as? FavoritesDetailViewController {
+                
+                controller.receivedFavorite = self.currentDog
+            
+            }
+                
+            else {
+                print("your segue indentifier is incorrect")
+            }
+            
+        }
+    }
+    
+    
 
 }
 
