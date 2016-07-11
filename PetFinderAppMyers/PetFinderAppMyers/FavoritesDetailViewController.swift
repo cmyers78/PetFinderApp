@@ -23,6 +23,7 @@ class FavoritesDetailViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     
+    @IBOutlet weak var detailTextView: UITextView!
     
     var receivedFavorite : Dog?
     
@@ -44,7 +45,7 @@ class FavoritesDetailViewController: UIViewController {
         self.detailGenderLabel.text = self.receivedFavorite?.gender
         self.detailSizeLabel.text = self.receivedFavorite?.size
         self.detailAgeLabel.text = self.receivedFavorite?.age
-        self.descriptionLabel.text = self.receivedFavorite?.background
+        self.detailTextView.text = self.receivedFavorite?.background
     }
     
 
