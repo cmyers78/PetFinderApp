@@ -22,13 +22,13 @@ class DataStorage: NSObject {
     
     func seedDog() {
         
-        let dog1 = Dog(petName: "Athena", petAge: "5 years", petImage: "p1 - Athena", petBreed: "Chihuahua", petSize: "Small", petGender: "Female", petBackground: "Testing testing testing")
+        let dog1 = Dog(petName: "Athena", petAge: "5 years", petImage: "p1 - Athena", petBreed: "Chihuahua", petSize: "Small", petGender: "Female", petBackground: "Meet Athena! Athena is a 5-year-old Chihuahua. This pint-sized girl is full of personality and will make a great companion! She gets along well with other small, non-dominant dogs… she especially likes her little friend, Zeus. Athena loves being carried around in the arms of her human companion, like most small dogs do! Come meet and fall in love with Athena today!")
         self.dogArray.append(dog1)
         
         let dog2 = Dog(petName: "Audi", petAge: "8 months", petImage: "p2 - Audi", petBreed: "Lab mix", petSize: "Medium", petGender: "Female", petBackground: "Audi is an 8-month-old Lab mix. She is mostly black with some white accents, and her coat is a bit wiry. She is all puppy all the the time. She will be a great hiking or running buddy and would love space to live and a family to adore. Audi won’t last long so come and adopt her today!")
         self.dogArray.append(dog2)
         
-        let dog3 = Dog(petName: "Basil", petAge: "6.5 years", petImage: "p3 - Basil", petBreed: "Basset Hound mix", petSize: "Large", petGender: "Male", petBackground: "Testing testing testing")
+        let dog3 = Dog(petName: "Basil", petAge: "6.5 years", petImage: "p3 - Basil", petBreed: "Basset Hound mix", petSize: "Large", petGender: "Male", petBackground: "Basil is a sweet 6 year old male Bassett Hound mix. He is a happy go lucky dog! Basil knows a few obedience commands (sit & down) Further obedience training wouldn’t hurt. He is very eager to learn and very eager to please. He gets along well with other similar sized dogs but is not too found of the felines. Basil enjoys going to leisurely walks, exploring the outdoors, playing with toys and hanging out with his favorite humans. Basil will make a great companion for any family!")
         self.dogArray.append(dog3)
         
         let dog4 = Dog(petName: "Beaufort", petAge: "6 years", petImage: "p4 - Beaufort", petBreed: "Hound", petSize: "Large", petGender: "Male", petBackground: "Testing testing testing")
@@ -73,13 +73,13 @@ class DataStorage: NSObject {
         let dog17 = Dog(petName: "Kevin", petAge: "6 years", petImage: "p17 - Kevin", petBreed: "Cocker Spaniel", petSize: "Medium", petGender: "Male", petBackground: "Testing testing testing")
         self.dogArray.append(dog17)
         
-        let dog18 = Dog(petName: "Lady", petAge: "5 years", petImage: "p18 - Lady", petBreed: "Pit Bull Terrier", petSize: "Large", petGender: "Female", petBackground: "Testing testing testing")
+        let dog18 = Dog(petName: "Lady", petAge: "5 years", petImage: "p18 - Lady", petBreed: "Pit Bull Terrier", petSize: "Large", petGender: "Female", petBackground: "Lady is a silly and lovable 5-year-old Pit Bull Terrier. She is a sweet, sweet girl who loves affection and cuddling. Lady likes playing outdoors, going for walks, playing with her toys and cuddling up with her favorite human friends. Lady knows her basic obedience commands and is eager to please. She is fully house trained and crate trained. Lady would do best in a moderately active household with no cats and older children. Lady enjoys the company of other non-dominant dogs. Lady will make a wonderful addition to any family!!")
         self.dogArray.append(dog18)
         
-        let dog19 = Dog(petName: "Liesl", petAge: "1 year", petImage: "p19 - Liesl", petBreed: "Pit Bull Terrier", petSize: "Medium", petGender: "Female", petBackground: "Testing testing testing")
+        let dog19 = Dog(petName: "Liesl", petAge: "1 year", petImage: "p19 - Liesl", petBreed: "Pit Bull Terrier", petSize: "Medium", petGender: "Female", petBackground: "Leisl is a pit bull terrier that has had a tough start in life. She was used as a bait dog in a fighting ring. She came to us in very poor condition but we are giving lots of TLC and she is slowly on the mend. This girl has a lot of love to give and deserves the best home possible. She is only 1 year old and has many memories to make with you! Come to the rescue ranch and meet her now!")
         self.dogArray.append(dog19)
         
-        let dog20 = Dog(petName: "Lucy", petAge: "1 year", petImage: "p20 - Lucy", petBreed: "Border Collie", petSize: "Large", petGender: "Female", petBackground: "Testing testing testing")
+        let dog20 = Dog(petName: "Lucy", petAge: "1 year", petImage: "p20 - Lucy", petBreed: "Border Collie", petSize: "Large", petGender: "Female", petBackground: "Lucy is a very sweet 1 year old female border collie, she is good with other dogs and possibly cats. She is very out going, and preferably needs a home with a fence. Adopt her today!")
         self.dogArray.append(dog20)
         
     }

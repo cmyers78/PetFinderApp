@@ -24,7 +24,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="AuA-pR-VTI" firstAttribute="height" secondItem="tsR-hK-woN" secondAttribute="height" multiplier="0.5" id="3GP-Th-OYW"/>
                             <constraint firstItem="AuA-pR-VTI" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="6QT-Pq-wtE"/>
