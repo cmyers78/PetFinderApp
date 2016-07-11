@@ -14,11 +14,24 @@ class FavoritesDetailViewController: UIViewController {
     
     @IBOutlet weak var detailImage: UIImageView!
     
+    @IBOutlet weak var detailGenderLabel: UILabel!
+    
+    @IBOutlet weak var detailSizeLabel: UILabel!
+    
+    @IBOutlet weak var detailAgeLabel: UILabel!
+    
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
+    
+    
     var receivedFavorite : Dog?
+    
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Details"
 
         // Do any additional setup after loading the view.
     }
@@ -28,6 +41,10 @@ class FavoritesDetailViewController: UIViewController {
         
         self.detailNameLabel.text = self.receivedFavorite?.name
         self.detailImage.image = self.receivedFavorite?.image
+        self.detailGenderLabel.text = self.receivedFavorite?.gender
+        self.detailSizeLabel.text = self.receivedFavorite?.size
+        self.detailAgeLabel.text = self.receivedFavorite?.age
+        self.descriptionLabel.text = self.receivedFavorite?.background
     }
     
 

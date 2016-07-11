@@ -17,7 +17,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Favorites"
         
         // Do any additional setup after loading the view, typically from a nib.
     }

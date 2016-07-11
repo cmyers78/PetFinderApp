@@ -227,31 +227,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fido" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbZ-zr-WoF">
+                                <rect key="frame" x="225" y="84" width="360" height="34"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cxI-7h-EX5">
-                                <rect key="frame" x="180" y="211.5" width="240" height="177"/>
+                                <rect key="frame" x="20" y="84" width="190" height="234"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="177" id="PQJ-lZ-0Kg"/>
-                                    <constraint firstAttribute="width" constant="240" id="zRA-Fr-ZyP"/>
+                                    <constraint firstAttribute="width" constant="190" id="9x4-gt-AgJ"/>
+                                    <constraint firstAttribute="height" constant="234" id="G38-g8-fsa"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbZ-zr-WoF">
-                                <rect key="frame" x="279" y="126" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2w-wB-7yk">
+                                <rect key="frame" x="225" y="138" width="360" height="32"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Js-aK-f8f">
+                                <rect key="frame" x="225" y="190" width="360" height="31.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6SH-6j-Kbc">
+                                <rect key="frame" x="225" y="241" width="360" height="31.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLc-8a-xPa">
+                                <rect key="frame" x="20" y="358" width="560" height="25.5"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.48673240410000002" green="0.70890737579999996" blue="0.83946314099999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="cxI-7h-EX5" firstAttribute="top" secondItem="RbZ-zr-WoF" secondAttribute="bottom" constant="64.5" id="25o-Dd-lbh"/>
-                            <constraint firstItem="cxI-7h-EX5" firstAttribute="centerY" secondItem="ysd-Jd-63U" secondAttribute="centerY" id="3EM-WS-l3z"/>
-                            <constraint firstItem="RbZ-zr-WoF" firstAttribute="centerX" secondItem="ysd-Jd-63U" secondAttribute="centerX" id="7Ll-z5-42m"/>
-                            <constraint firstItem="cxI-7h-EX5" firstAttribute="centerX" secondItem="ysd-Jd-63U" secondAttribute="centerX" id="IVt-Xl-GQl"/>
+                            <constraint firstItem="6Js-aK-f8f" firstAttribute="top" secondItem="B2w-wB-7yk" secondAttribute="bottom" constant="20" id="2CD-2v-frz"/>
+                            <constraint firstAttribute="trailing" secondItem="6Js-aK-f8f" secondAttribute="trailing" constant="15" id="7v8-Oh-mGl"/>
+                            <constraint firstItem="RbZ-zr-WoF" firstAttribute="top" secondItem="89S-Aq-c8U" secondAttribute="bottom" constant="20" id="BbJ-Dr-v6h"/>
+                            <constraint firstAttribute="trailing" secondItem="6SH-6j-Kbc" secondAttribute="trailing" constant="15" id="Bbw-tN-Iuq"/>
+                            <constraint firstItem="cxI-7h-EX5" firstAttribute="leading" secondItem="ysd-Jd-63U" secondAttribute="leading" constant="20" id="DtQ-lf-eXo"/>
+                            <constraint firstItem="TLc-8a-xPa" firstAttribute="top" secondItem="cxI-7h-EX5" secondAttribute="bottom" constant="40" id="LoB-n3-9qb"/>
+                            <constraint firstItem="6SH-6j-Kbc" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="Mdc-X3-2ON"/>
+                            <constraint firstItem="RbZ-zr-WoF" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="NBs-gZ-0x9"/>
+                            <constraint firstAttribute="trailing" secondItem="TLc-8a-xPa" secondAttribute="trailing" constant="20" id="P2z-Or-gGc"/>
+                            <constraint firstItem="6SH-6j-Kbc" firstAttribute="top" secondItem="6Js-aK-f8f" secondAttribute="bottom" constant="20" id="Z7E-sm-480"/>
+                            <constraint firstAttribute="trailing" secondItem="B2w-wB-7yk" secondAttribute="trailing" constant="15" id="bww-ju-gmy"/>
+                            <constraint firstItem="TLc-8a-xPa" firstAttribute="leading" secondItem="ysd-Jd-63U" secondAttribute="leading" constant="20" id="dw5-6h-zQN"/>
+                            <constraint firstItem="B2w-wB-7yk" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="hPl-0d-woE"/>
+                            <constraint firstAttribute="trailing" secondItem="RbZ-zr-WoF" secondAttribute="trailing" constant="15" id="mw9-oA-1Q7"/>
+                            <constraint firstItem="cxI-7h-EX5" firstAttribute="top" secondItem="89S-Aq-c8U" secondAttribute="bottom" constant="20" id="pRP-U6-wbi"/>
+                            <constraint firstItem="6Js-aK-f8f" firstAttribute="leading" secondItem="cxI-7h-EX5" secondAttribute="trailing" constant="15" id="tsK-2C-8zf"/>
+                            <constraint firstItem="B2w-wB-7yk" firstAttribute="top" secondItem="RbZ-zr-WoF" secondAttribute="bottom" constant="20" id="u2H-B6-Sjq"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="descriptionLabel" destination="TLc-8a-xPa" id="QUp-6o-8t7"/>
+                        <outlet property="detailAgeLabel" destination="6SH-6j-Kbc" id="ped-pR-C7k"/>
+                        <outlet property="detailGenderLabel" destination="B2w-wB-7yk" id="fM8-pL-h0j"/>
                         <outlet property="detailImage" destination="cxI-7h-EX5" id="dQC-i5-jhl"/>
                         <outlet property="detailNameLabel" destination="RbZ-zr-WoF" id="Y9X-6l-aPz"/>
+                        <outlet property="detailSizeLabel" destination="6Js-aK-f8f" id="nfo-dh-oTj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3XV-jb-vEh" userLabel="First Responder" sceneMemberID="firstResponder"/>

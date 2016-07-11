@@ -16,6 +16,7 @@ class Dog: NSObject {
     var breed : String = ""
     var size : String = ""
     var gender : String = ""
+    var background : String = ""
     
     // optional UI Image - Lazy Property - computed properties
     var image : UIImage? {
@@ -23,7 +24,7 @@ class Dog: NSObject {
     }
 
     
-    init(petName : String, petAge : String, petImage : String, petBreed : String, petSize : String, petGender : String) {
+    init(petName : String, petAge : String, petImage : String, petBreed : String, petSize : String, petGender : String, petBackground : String) {
         
         self.name = petName
         self.age = petAge
@@ -31,7 +32,7 @@ class Dog: NSObject {
         self.breed = petBreed
         self.size = petSize
         self.gender = petGender
-        
+        self.background = petBackground
     }
     
     
